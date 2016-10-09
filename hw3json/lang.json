@@ -1,0 +1,23 @@
+{
+   "title":"supported languages",
+   "languages":[
+      {
+         "name":"english",
+         "family":"indo-european",
+         "writing system":"latin script",
+         "code":"eng"
+      },
+      {
+         "name":"russian",
+         "family":"indo-european",
+         "writing system":"cyrillic",
+         "code":"rus"
+      },
+      {
+         "name":"latin",
+         "family":"indo-european",
+         "writing system":"latin alphabet",
+         "code":"lat"
+      }
+   ]
+}

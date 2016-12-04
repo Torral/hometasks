@@ -1,0 +1,41 @@
+.editor {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flex;
+    display: inline-flex;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    background-color: #000000;
+	border-radius: 9px;
+	opacity: 0.8;
+}
+
+.editor p {
+    color: #000;
+	background-color: #351456;
+    font-weight: bold;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: move;
+}
+
+textarea {
+    background-color: #351456;
+    color: grey;
+    border: none;
+    outline: none;
+	font-family: Arial;
+	font-weight: bold;
+	opacity: 1;
+
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+
+    height: 160px;
+    width: 480px;
+}
